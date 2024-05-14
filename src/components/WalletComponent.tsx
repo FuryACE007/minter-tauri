@@ -109,7 +109,6 @@ function WalletComponent() {
 
     console.log("TokenMetadata uploaded successfully", uri);
     toast.success("Token metadata uploaded successfully");
-
     // create the fungible token
 
     createFungible(umi, {
